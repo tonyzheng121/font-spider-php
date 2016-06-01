@@ -1,0 +1,48 @@
+/* web latest */
+@font-face {
+  font-family: 'Source Han Sans Regular';
+  src: url('./latest/source-han-sans-regular.eot');
+  src:
+    url('./latest/source-han-sans-regular.eot') format('embedded-opentype'),
+    url('./latest/source-han-sans-regular.woff') format('woff'),
+    url('./latest/source-han-sans-regular.ttf') format('truetype'),
+    url('./latest/source-han-sans-regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Han Sans Light';
+  src: url('./latest/source-han-sans-light.eot');
+  src:
+    url('./latest/source-han-sans-light.eot') format('embedded-opentype'),
+    url('./latest/source-han-sans-light.woff') format('woff'),
+    url('./latest/source-han-sans-light.ttf') format('truetype'),
+    url('./latest/source-han-sans-light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Han Sans Normal';
+  src: url('./latest/source-han-sans-normal.eot');
+  src:
+    url('./latest/source-han-sans-normal.eot') format('embedded-opentype'),
+    url('./latest/source-han-sans-normal.woff') format('woff'),
+    url('./latest/source-han-sans-normal.ttf') format('truetype'),
+    url('./latest/source-han-sans-normal.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body .part-light {
+  font-family: 'Source Han Sans Light';
+}
+
+body .part-regular {
+  font-family: 'Source Han Sans Regular';
+}
+
+body .part-nomral {
+  font-family: 'Source Han Sans Normal';
+}
